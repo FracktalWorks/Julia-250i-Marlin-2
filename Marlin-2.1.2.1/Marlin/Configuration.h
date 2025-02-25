@@ -1625,10 +1625,10 @@
 // @section motion
 
 // Invert the stepper direction. Change (or reverse the motor connector) if an axis goes the wrong way.
-#define INVERT_X_DIR false //true //false //false
+#define INVERT_X_DIR false //true //Julia 250i
 #define INVERT_Y_DIR false //true //Julia 250i
-#define INVERT_Z_DIR false
-//#define INVERT_I_DIR falsex`
+#define INVERT_Z_DIR false //true //Julia 250i
+//#define INVERT_I_DIR false
 //#define INVERT_J_DIR false
 //#define INVERT_K_DIR false
 //#define INVERT_U_DIR false
@@ -1638,7 +1638,7 @@
 // @section extruder
 
 // For direct drive extruder v9 set to true, for geared extruder set to false.
-#define INVERT_E0_DIR false //false
+#define INVERT_E0_DIR true //false //Julia 250i
 #define INVERT_E1_DIR false
 #define INVERT_E2_DIR false
 #define INVERT_E3_DIR false
